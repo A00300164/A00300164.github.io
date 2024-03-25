@@ -6,55 +6,117 @@
 <title>Sanjeev Kumar - Mobile Developer</title>
 <style>
   body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
   }
-
   .container {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 50px 20px;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-
-  h1 {
-    color: #333;
+  h1, h2, h3 {
+      margin-top: 0;
   }
-
-  p {
-    color: #666;
+  .section {
+      margin-bottom: 20px;
   }
-
-  button {
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    background-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 5px;
+  .experience {
+      margin-top: 10px;
   }
-
-  button:hover {
-    background-color: #0056b3;
+  .experience ul {
+      list-style: none;
+      padding-left: 0;
+  }
+  .skills {
+      margin-top: 10px;
+  }
+  .skills ul {
+      list-style: none;
+      padding-left: 0;
   }
 </style>
 </head>
 <body>
-
 <div class="container">
-  <h1>Welcome to Sanjeev Kumar's Mobile Development Hub</h1>
-  <p>I'm a passionate mobile developer ready to bring your app ideas to life!</p>
-  <button onclick="contactMe()">Contact Me</button>
+  <header>
+      <h1>Sanjeev Kumar</h1>
+      <p>34 Mafeking Crescent • Scarborough, Ontario M1G 2W8<br>
+      Email: <a href="mailto:sanjeevdhir001@gmail.com">sanjeevdhir001@gmail.com</a><br>
+      Phone: +1 (437) 799-9706</p>
+  </header>
+  
+  <section class="education section">
+      <h2>Education</h2>
+      <p><strong>Cambrian College</strong><br>
+      PGDM, Mobile Application Development<br>
+      Toronto, ON<br>
+      June 2024 (Pursuing)</p>
+      
+      <p><strong>Niagara College</strong><br>
+      International Business Management<br>
+      Toronto, ON<br>
+      January 2023 – September 2023</p>
+      
+      <p><strong>Punjab Technical University</strong><br>
+      Bachelor of Science in Information Technology<br>
+      India<br>
+      March 2011-September 2013</p>
+  </section>
+
+  <section class="experience section">
+      <h2>Experience</h2>
+      <div class="job">
+          <h3>Tech Mahindra</h3>
+          <p><em>Junior Software Developer</em><br>
+          Chandigarh, India<br>
+          January 2021 – December 2023</p>
+          <ul>
+              <li>Collaborated with senior developers and cross-functional teams to understand project requirements and objectives.</li>
+              <li>Assisted in the design and development of software solutions based on specifications.</li>
+              <li>Wrote clean, efficient, and maintainable code in accordance with established coding standards.</li>
+              <li>Debugged and troubleshooted software defects and issues, ensuring timely resolution.</li>
+          </ul>
+      </div>
+      <div class="job">
+          <h3>Net Solutions</h3>
+          <p><em>Mobile Developer</em><br>
+          Chandigarh, India<br>
+          January 2018 – September 2020</p>
+          <ul>
+              <li>Designed and developed mobile applications for iOS and Android platforms.</li>
+              <li>Ensured the security and privacy of mobile applications through effective coding practices.</li>
+              <li>Wrote clean, maintainable code and conducted code reviews to ensure high-quality software development.</li>
+              <li>Troubleshooted and debugged issues to optimize application performance.</li>
+          </ul>
+      </div>
+  </section>
+
+  <section class="leadership section">
+      <h2>Leadership and Activities</h2>
+      <p><strong>HDFC Bank Pvt. Ltd.</strong><br>
+      Sales Team Leader<br>
+      Ludhiana, Punjab<br>
+      November 2015 – December 2017</p>
+      <ul>
+          <li>Established and maintained relationships with new and existing clients.</li>
+          <li>Ensured marketing strategies were executed.</li>
+          <li>Looked for growth opportunities within the branch.</li>
+          <li>Understanding of financial and related products.</li>
+      </ul>
+  </section>
+
+  <section class="skills section">
+      <h2>Skills & Interests</h2>
+      <p><strong>Technical:</strong> Programming, Productivity software knowledge, Social media management.</p>
+      <p><strong>Language:</strong> English, Punjabi, Hindi</p>
+      <p><strong>Interests:</strong> Volunteer work</p>
+  </section>
 </div>
-
-<script>
-  function contactMe() {
-    alert("Feel free to reach out to me at: your.email@example.com");
-  }
-</script>
-
 </body>
 </html>
