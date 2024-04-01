@@ -75,3 +75,6 @@ November 2015 – December 2017
 ### Interests
 - Volunteer work
 
+---
+
+![Cambrian College Logo](cambrian_logo.png) ![Niagara College Logo](niagara_logo.png) ![Punjab Technical University Logo](ptu_logo.png)
