@@ -1,6 +1,6 @@
 # 👤 Sanjeev Kumar
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/your_linkedin_profile](https://www.linkedin.com/in/sanjeevkumar001/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanjeevkumar001/)
 
 ## 📍 Contact Info:
 
